@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    float a=0, b=0; cin >> a, cin >> b;
+    float a=0, b=0; cin >> a, b;
     int opzione=0; cin >> opzione;
 
     switch (opzione) {
