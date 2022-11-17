@@ -1,17 +1,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-    float a=0, b=0;
-    int opzione=0;
-
-    cout << "inserire il valore di a" << endl;
-    cin >> a;
-
-    cout << "inserire il valore di b" << endl;
-    cin >> b;
-
-    cout << "Scegliere quale area calcolare" << endl << "Digita 0 per l'area del triangolo" << endl << "Digita 1 per l'area del quadrato" << endl << "Digita 2 per l'area del rettangolo" << endl;
-    cin >> opzione;
+    float a=0, b=0; cin >> a, cin >> b;
+    int opzione=0; cin >> opzione;
 
     switch (opzione) {
         case (0):
