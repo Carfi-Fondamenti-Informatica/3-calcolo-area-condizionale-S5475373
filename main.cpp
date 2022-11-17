@@ -5,13 +5,13 @@ int main() {
     int opzione=0; cin >> opzione;
 
     switch (opzione) {
-        case (0):
+        case 0:
             cout << ((a*b)/2);
             break;
-        case (1):
+        case 1:
             cout << (a*a);
             break;
-        case (2):
+        case 2:
             cout << (a*b);
         default:
             cout << "operazione non valida" << endl;
